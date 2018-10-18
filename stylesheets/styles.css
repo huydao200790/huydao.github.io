@@ -1,0 +1,101 @@
+body{
+  display: block;
+  margin:0;
+  padding:0;
+}
+
+.nav-bar{
+  background-color: grey;
+  width:100%;
+  position: fixed;
+  display:flex;
+
+}
+
+.nav-bar a:hover{
+  background-color:#F0F8FF;
+}
+
+.nav-bar a{
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  overflow: hidden;
+}
+
+.main-container{
+  border-style: solid;
+  display:block;
+}
+
+.welcomesection {
+  background-color: rgb(194, 213, 157);
+  font-size: 40px;
+  align-self: center;
+  padding: 300px 0 300px 0;
+
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+.welcomesection .welcomeh1
+{
+  font-size: 50px;
+}
+
+h2{
+  font-size:50px;
+}
+
+.remove-space{
+  padding:0;
+  margin:0;
+}
+
+.tool{
+  background-color: rgb(235, 213, 157);
+  font-size: 25px;
+  padding: 90px 200px 500px 20px;
+  border-style: solid;
+}
+
+.aboutme-container,.skill-container,.project-container, .network-container {
+  border-style: solid;
+  font-size: 30px;
+  padding: 200px 500px 200px 400px;
+}
+.aboutme-container{
+  background-color: rgb(253, 216, 200);
+}
+
+.skill-container{
+  background-image: url("https://media.giphy.com/media/BWfe2DJRX1DQ4/giphy.gif");
+  background-color: rgb(198, 199, 179);
+}
+.skill-container p, .skill-container h2{
+  color: rgb(252, 144, 87);
+}
+.network-container{
+  display: block;
+}
+.network-container div a{
+  padding-top: 50px;
+  text-decoration: none;
+  color: black;
+}
+.net-work{
+  display: flex;
+  justify-content: space-between;
+}
+.project-container{
+  background-color: rgb(191, 234, 254);
+}
+
+@media (max-width:400px){
+  .welcomesection{
+    background-color: white;
+  }
+
+}
